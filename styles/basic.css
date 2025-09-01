@@ -10,6 +10,7 @@ body {
    font-family: "Lato", sans-serif;
    margin: 0;
    font-weight: 400;
+   background-color: var(--co-white);
 }
 
 ul {
@@ -62,4 +63,5 @@ p {
 .logo {
    width: 81px;
    height: 24px;
+   flex-shrink: 1;
 }
