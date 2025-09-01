@@ -1,18 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="icon" href="assets/favicon.png" type="image/png">
    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet">
    <title>Alivio</title>
    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
- <svg>
+   <!--<svg>
    <use href="assets/sprites.svg#logo-icon"></use>
- </svg>
+ </svg>-->
+   <header class="header" aria-label="header">
+      <div class="container">
+         <div class="header__wrapper">
+            <svg class="logo">
+               <use href="assets/sprites.svg#logo-icon"></use>
+            </svg>
+
+            <nav class="header__menu menu" aria-label="header navigation">
+               <ul class="menu__list" aria-label="menu list">
+                  <li class="menu__item">
+                     <a href="#" class="menu__link" aria-label="link why alivio">
+                        Why Alivio
+                     </a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#" class="menu__link" aria-label="link solutions">
+                        Solutions
+                     </a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#" class="menu__link" aria-label="link community">
+                        Community
+                     </a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#" class="menu__link" aria-label="link pricing">
+                        Pricing
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="header__actions">
+               <button class="btn signin-btn" type="button">Sign in</button>
+               <button class="btn" type="button">Start Trial</button>
+            </div>
+         </div>
+      </div>
+
+
+   </header>
 </body>
+
 </html>
